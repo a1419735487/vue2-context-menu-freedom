@@ -1,10 +1,14 @@
 {
   "name": "vue2-context-menu-freedom",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "vue2高自由右击菜单，支持作用域选择",
   "author": "三火Sunfire",
   "license": "MIT",
-  "main": "./dist/vue2-context-menu-freedom.umd.js",
+  "main": "./dist/vue2-context-menu-freedom.common.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1419735487/vue2-context-menu-freedom"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib ./src/export.js --name vue2-context-menu-freedom"
